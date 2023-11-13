@@ -18,7 +18,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  late Locale _appLocale;
+   Locale? _appLocale;
 
   //get locale languege from ElevatedButton as a parameter
   Future <void> _changeLanguage(Locale locale) async {
